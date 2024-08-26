@@ -20,6 +20,7 @@
     <div class="container">
         <h1>Welcome to My Simple Landing Page!!!</h1>
         <button onclick="sayHello()">Click Me!</button>
+        <p id="result"></p>
     </div>
 
     <script src="script.js"></script>
