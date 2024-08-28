@@ -19,7 +19,9 @@
     ?>
     <div class="container">
         <h1>Welcome to My Simple Landing Page!!!</h1>
-        <button onclick="sayHello()">Click Me!</button>
+        <button onclick="sayHello()">Say Hello</button>
+        <button onclick="addComment()">Add Comment</button>
+        <button onclick="getRandomComment()">Get Random Comment</button>
         <p id="result"></p>
     </div>
 
