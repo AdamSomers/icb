@@ -1,5 +1,5 @@
 function sayHello() {
-    alert("Hello! Welcome to the landing page!");
+    //alert("Hello! Welcome to the landing page!");
     var xhr = new XMLHttpRequest();
     xhr.open("POST", "click.php", true); // Call a separate PHP file
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
