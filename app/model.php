@@ -66,7 +66,7 @@ function fetchRandomCommentFromDB($dbPath) {
         $comment = $stmt->fetch(PDO::FETCH_ASSOC);
 
         if ($comment) {
-            return $comment['id'];
+            return $comment['comment'] . PHP_EOL . "Created at " . $comment['created_at'];
         } else {
             echo "No comments found." . PHP_EOL;
             return null;
