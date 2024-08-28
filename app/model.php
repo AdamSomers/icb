@@ -66,7 +66,7 @@ function fetchRandomCommentFromDB($dbPath) {
         $comment = $stmt->fetch(PDO::FETCH_ASSOC);
 
         if ($comment) {
-            return $comment;
+            return $comment['id'];
         } else {
             echo "No comments found." . PHP_EOL;
             return null;
